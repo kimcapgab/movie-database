@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: #c7d2fd;
+  color: #1e3a8a;
+  font-family: "Acme", sans-serif;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px;
+  font-family: "Acme", sans-serif;
+}
+
+img {
+  height: 250px;
+  border-radius: 8px;
+}
+button {
+  border: 1px solid black;
+  background-color: #1e3a8a;
+  padding: 10px;
+  border-radius: 8px;
+  color: aliceblue;
+  font-family: "Acme", sans-serif;
+}
+
+button:hover {
+  background-color: #7a82ab;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newFlex {
+  flex: 1 1 160px;
+}
