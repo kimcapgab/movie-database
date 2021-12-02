@@ -1,7 +1,7 @@
 
 
-const DOMAIN = config.URL;
-const API_KEY = config.API;
+const DOMAIN = 'http://www.omdbapi.com/';
+const API_KEY = '7781ef84';
 
 const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&s=`;
 
